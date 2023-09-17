@@ -1,14 +1,47 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "FirstName": "Fred",
+  "Surname": "Smith",
+  "Age": 28,
+  "Address": {
+    "Street": "Hursley Park",
+    "City": "Winchester",
+    "Postcode": "SO21 2JN"
+  },
+  "Phone": [
+    {
+      "type": "home",
+      "number": "0203 544 1234"
+    },
+    {
+      "type": "office",
+      "number": "01962 001234"
+    },
+    {
+      "type": "office",
+      "number": "01962 001235"
+    },
+    {
+      "type": "mobile",
+      "number": "077 7700 1234"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "Email": [
+    {
+      "type": "work",
+      "address": ["fred.smith@my-work.com", "fsmith@my-work.com"]
+    },
+    {
+      "type": "home",
+      "address": ["freddy@my-social.com", "frederic.smith@very-serious.com"]
+    }
   ],
-  "profile": {
-    "name": "typicode"
+  "Other": {
+    "Over 18 ?": true,
+    "Misc": null,
+    "Alternative.Address": {
+      "Street": "Brick Lane",
+      "City": "London",
+      "Postcode": "E1 6RF"
+    }
   }
 }
